@@ -1,0 +1,11 @@
+language: java
+script: mvn clean install
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+branches:
+  - list
+  - master
+notifications:
+  email:
+  - cbadenes@gmail.com
